@@ -12,7 +12,7 @@ require(readr)
 source_gist(8892981) # Downloads parse.retrosheet2.pbp function
 
 # Data fields
-fields <- read_csv("./download.folder/unzipped/fields.csv")
+fields <- read_csv("fields.csv")
 headers <- fields$Header
 
 seasons <- rep(c(1925, 1927, 1930:2014)) # Seasons to download
