@@ -23,7 +23,7 @@ for (s in seasons){
   print(paste0("Season ", s, " downloaded."))
   names(data) <- headers
   data$season <- s
-  write_csv(data, paste0("pbp_data/pbp_", s, ".csv"))
+  write_csv(data, paste0("data/pbp_", s, ".csv"))
   print(paste0("Season ", s, " written."))
   gc()
 }

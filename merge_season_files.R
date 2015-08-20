@@ -1,4 +1,4 @@
-# Merge MLB season data
+# Merge MLB season data 
 
 setwd("~/editing/mlb_pbp_data/")
 
@@ -16,3 +16,9 @@ for (s in season_files){
 }
 
 write_csv(pbp_all_seasons, "pbp_all_seasons.csv")
+
+
+
+
+
+
